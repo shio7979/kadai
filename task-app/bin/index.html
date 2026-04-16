@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>課題管理</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+<h1>課題リスト</h1>
+
+<ul id="taskList"></ul>
+
+<h2>課題追加</h2>
+
+<input id="taskName" placeholder="課題名">
+
+<select id="day">
+  <option value="1">月</option>
+  <option value="2">火</option>
+  <option value="3">水</option>
+  <option value="4">木</option>
+  <option value="5">金</option>
+</select>
+
+<select id="period">
+  <option value="1">1限</option>
+  <option value="2">2限</option>
+  <option value="3">3限</option>
+  <option value="4">4限</option>
+  <option value="5">5限</option>
+</select>
+
+<button onclick="addTask()">追加</button>
+
+<script src="script.js"></script>
+
+</body>
+</html>
